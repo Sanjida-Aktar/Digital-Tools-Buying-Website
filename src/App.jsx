@@ -1,12 +1,16 @@
-
 import './App.css'
+import Bannar from './Components/Bannar'
+import Navbar from './Components/Navbar'
 
 function App() {
   
 
   return (
     <>
-      <h1>hello, Vite!</h1>
+      <div className='w-11/12 mx-auto'>
+        <Navbar></Navbar>
+      <Bannar></Bannar>
+      </div>
     </>
   )
 }
