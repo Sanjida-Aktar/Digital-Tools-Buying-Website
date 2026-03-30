@@ -3,7 +3,7 @@ import { FaCartPlus } from 'react-icons/fa';
 
 const Navbar = () => {
   return (
-    <div className="navbar py-4">
+    <div className="navbar ">
       <div className="navbar-start">
         <div className="flex items-center gap-1 font-bold text-xl">
           <h1 className="gradient-text">DigiTools</h1>

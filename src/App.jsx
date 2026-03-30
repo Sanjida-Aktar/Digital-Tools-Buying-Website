@@ -9,6 +9,7 @@ function App() {
     <>
       <div className='w-11/12 mx-auto'>
         <Navbar></Navbar>
+        <div className="divider"></div>
       <Bannar></Bannar>
       </div>
     </>
