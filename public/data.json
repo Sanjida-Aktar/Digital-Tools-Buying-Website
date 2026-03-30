@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Advanced resume builder with ATS optimization.",
+    "price": 29.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "FaFileAlt"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Creator",
+    "description": "Design stunning online portfolios with ease.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Custom themes", "Drag & drop editor", "SEO friendly"],
+    "icon": "FaPalette"
+  },
+  {
+    "id": 3,
+    "name": "Business Plan Kit",
+    "description": "Comprehensive toolkit for startups and entrepreneurs.",
+    "price": 99.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Financial templates", "Market analysis", "Pitch deck builder"],
+    "icon": "FaChartLine"
+  },
+  {
+    "id": 4,
+    "name": "Social Media Booster",
+    "description": "Grow your social presence with automated tools.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Post scheduler", "Analytics dashboard", "Hashtag generator"],
+    "icon": "FaShareAlt"
+  },
+  {
+    "id": 5,
+    "name": "E-Learning Suite",
+    "description": "Create and manage online courses effortlessly.",
+    "price": 199.99,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Video hosting", "Quizzes & certificates", "Student analytics"],
+    "icon": "FaGraduationCap"
+  },
+  {
+    "id": 6,
+    "name": "Cloud Storage Plus",
+    "description": "Secure and scalable cloud storage solution.",
+    "price": 5.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["1TB storage", "File sharing", "End-to-end encryption"],
+    "icon": "FaCloud"
+  },
+  {
+    "id": 7,
+    "name": "Email Marketing Hub",
+    "description": "Automated email campaigns with smart analytics.",
+    "price": 49.99,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Custom templates", "A/B testing", "Audience segmentation"],
+    "icon": "FaEnvelope"
+  },
+  {
+    "id": 8,
+    "name": "Task Manager Pro",
+    "description": "Organize projects and boost productivity.",
+    "price": 7.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Kanban boards", "Team collaboration", "Deadline reminders"],
+    "icon": "FaCheck"
+  }
+]
