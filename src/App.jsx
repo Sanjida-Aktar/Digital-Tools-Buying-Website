@@ -1,6 +1,7 @@
 import './App.css'
 import Bannar from './Components/Bannar'
 import Navbar from './Components/Navbar'
+import Rating from './Components/Rating'
 
 function App() {
   
@@ -11,6 +12,7 @@ function App() {
         <Navbar></Navbar>
         <div className="divider"></div>
       <Bannar></Bannar>
+      <Rating></Rating>
       </div>
     </>
   )
