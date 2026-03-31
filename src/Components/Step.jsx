@@ -6,7 +6,7 @@ const Step = () => {
   return (
     <div className="my-10 w-11/12 mx-auto p-10">
       <div className="text-center">
-        <h1 className="text-4xl font-bold pb-5">Steps Section</h1>
+        <h1 className="text-4xl font-bold pb-5">Get Started in 3 Steps</h1>
         <p className="text-lg pb-5 text-gray-500">
           Start using premium digital tools in minutes, not hours.
         </p>
@@ -27,6 +27,9 @@ const Step = () => {
         </div>
 
         <div className="border border-gray-300 shadow-md text-center p-6 rounded-lg">
+          <button className="bg-purple-500 text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mb-4  ">
+              02
+            </button>
           <img
             src={packageImg}
             alt="User"
@@ -37,6 +40,9 @@ const Step = () => {
         </div>
 
         <div className="border border-gray-300 shadow-md text-center p-6 px-5 rounded-lg">
+          <button className="bg-purple-500 text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mb-4  ">
+              03
+            </button>
           <img
             src={rocketimg}
             alt="User"

@@ -5,6 +5,7 @@ import Digitools from './Components/Digitools'
 import Navbar from './Components/Navbar'
 import Rating from './Components/Rating'
 import Step from './Components/Step'
+import Prizeing from './Components/Prizeing'
 
 
 
@@ -33,6 +34,7 @@ function App() {
       </div>
 
       <Step></Step>
+      <Prizeing></Prizeing>
     </>
   )
 }
