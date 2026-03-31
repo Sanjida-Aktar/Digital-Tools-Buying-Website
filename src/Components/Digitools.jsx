@@ -40,7 +40,7 @@ const [carts, setCarts] = useState([]);
       </div>
 
        {activeTab === "products" && (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-10">
           {tools.map((tool) => (
             <Products key={tool.id} tools={tool} carts={carts} setCarts={setCarts} />
           ))}

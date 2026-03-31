@@ -4,6 +4,7 @@ import Bannar from './Components/Bannar'
 import Digitools from './Components/Digitools'
 import Navbar from './Components/Navbar'
 import Rating from './Components/Rating'
+import Step from './Components/Step'
 
 
 
@@ -30,6 +31,8 @@ function App() {
       <Digitools modelPromise={modelPromise}></Digitools>
       </Suspense>
       </div>
+
+      <Step></Step>
     </>
   )
 }

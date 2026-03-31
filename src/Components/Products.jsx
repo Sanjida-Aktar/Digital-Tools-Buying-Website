@@ -28,7 +28,7 @@ const Products = ({ tools, carts, setCarts }) => {
 }
 
   return (
-    <div className="card w-96 bg-base-100 shadow-sm border p-6 ">
+    <div className="card w-96 bg-base-100 shadow-sm border-gray-600 p-6 ">
       <div className="pb-7 ">
         <img src={tools.image} alt={tools.name} />
       </div>

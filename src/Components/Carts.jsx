@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Carts = ({ carts }) => {
    console.log(carts);
     return (
