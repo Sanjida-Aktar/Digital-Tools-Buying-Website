@@ -18,7 +18,7 @@ const Step = () => {
               01
             </button>
           <img
-            src={userimg}s
+            src={userimg}
             alt="User"
             className="w-20 h-20 rounded-full mx-auto mb-4 bg-purple-200 p-3"
           />

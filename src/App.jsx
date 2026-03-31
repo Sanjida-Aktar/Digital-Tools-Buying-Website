@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar'
 import Rating from './Components/Rating'
 import Step from './Components/Step'
 import Prizeing from './Components/Prizeing'
+import Footer from './Components/Footer'
 
 
 
@@ -35,6 +36,7 @@ function App() {
 
       <Step></Step>
       <Prizeing></Prizeing>
+      <Footer></Footer>
     </>
   )
 }

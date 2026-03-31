@@ -1,0 +1,141 @@
+import React from "react";
+import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+
+const Footer = () => {
+  return (
+    <div className="mt-12">
+      <footer className="bg-zinc-950 border-t border-red-900/50 pt-16 pb-10">
+        <div className="max-w-11/12 mx-auto px-6">
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-12">
+            <div className="md:col-span-5">
+              <div className="flex items-center gap-3 mb-6">
+                <h2 className="text-3xl font-bold tracking-tighter text-white">
+                  DigiTools
+                </h2>
+                <p>
+                  Premium digital tools for creators, professionals, and
+                  businesses. Work smarter with our suite of powerful tools.
+                </p>
+              </div>
+
+              <p className="text-zinc-400 text-lg max-w-md">
+                One subscription. Access to all frontier AI models in a single
+                powerful platform.
+              </p>
+            </div>
+
+            {/* Quick Links */}
+            <div className="md:col-span-2">
+              <h3 className="text-white font-semibold mb-6 text-lg">Product</h3>
+              <ul className="space-y-4 text-zinc-400">
+                <li>
+                  <a href="#" className="hover:text-white transition">
+                    Models
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-white transition">
+                    Pricing
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-white transition">
+                    Features
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-white transition">
+                    API
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div className="md:col-span-2">
+              <h3 className="text-white font-semibold mb-6 text-lg">Company</h3>
+              <ul className="space-y-4 text-zinc-400">
+                <li>
+                  <a href="#" className="hover:text-white transition">
+                    About Us
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-white transition">
+                    Blog
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-white transition">
+                    Careers
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-white transition">
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div className="md:col-span-3">
+              <h3 className="text-white font-semibold mb-6 text-lg">Legal</h3>
+              <ul className="space-y-4 text-zinc-400">
+                <li>
+                  <a href="#" className="hover:text-white transition">
+                    Privacy Policy
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-white transition">
+                    Terms of Service
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-white transition">
+                    Cookie Settings
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+           <div className="flex flex-wrap gap-2 md:col-span-2">
+  <a
+    href="#"
+    className="text-white rounded-full bg-purple-500 w-8 h-8 flex items-center justify-center text-xl hover:bg-purple-600 transition"
+  >
+    <FaInstagram />
+  </a>
+  <a
+    href="#"
+    className="text-white rounded-full bg-purple-500 w-8 h-8 flex items-center justify-center text-xl hover:bg-purple-600 transition"
+  >
+    <FaTwitter />
+  </a>
+  <a
+    href="#"
+    className="text-white rounded-full bg-purple-500 w-8 h-8 flex items-center justify-center text-xl hover:bg-purple-600 transition"
+  >
+    <FaLinkedin />
+  </a>
+</div>
+          </div>
+
+          {/* Bottom Bar */}
+          <div className="mt-16 pt-8 border-t border-zinc-800 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-zinc-500">
+            <div>
+              © {new Date().getFullYear()} DigiTools. All rights reserved.
+            </div>
+
+            <div className="flex gap-6">
+              <p>Privacy Policy</p>
+              <p>Terms of Service</p>
+              <p>Cookie Settings</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+};
+
+export default Footer;
