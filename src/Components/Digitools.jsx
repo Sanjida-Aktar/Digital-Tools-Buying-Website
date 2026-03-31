@@ -1,10 +1,15 @@
-import React, { use } from "react";
+import React, { use, useState} from "react";
 import Products from "./Products";
+import Carts from "./Carts";
+
 
 const Digitools = ({ modelPromise }) => {
   console.log(modelPromise);
   const tools = use(modelPromise);
 //   console.log(tools);
+const [activeTab, setActiveTab] = useState("products");
+const [carts, setCarts] = useState([]); 
+
   return (
     <div>
       <h1 className="text-5xl font-bold text-center my-10">
@@ -20,8 +25,8 @@ const Digitools = ({ modelPromise }) => {
           type="radio"
           name="my_tabs_1"
           className="tab rounded-full w-40 )"
-          aria-label="Models"
-          //   onClick={() => setActiveTab("model")}
+          aria-label="Products"
+            onClick={() => setActiveTab("products")}
           defaultChecked
         />
         <input
@@ -30,15 +35,21 @@ const Digitools = ({ modelPromise }) => {
           className="tab rounded-full w-40 "
           aria-label="Cart"
           //   aria-label={`Cart (${carts.length})`}
-          //   onClick={() => setActiveTab("cart")}
+            onClick={() => setActiveTab("cart")}
         />
       </div>
 
-       <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-8">
-        {
-            tools.map(tool=>(<Products key={tool.id} tools={tool}></Products>))
-        }
-       </div>
+       {activeTab === "products" && (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
+          {tools.map((tool) => (
+            <Products key={tool.id} tools={tool} carts={carts} setCarts={setCarts} />
+          ))}
+        </div>
+      )}
+      
+        { activeTab === "cart" && ( <div carts={carts} > <Carts /></div>
+          
+      )} 
     </div>
   );
 };

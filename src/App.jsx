@@ -5,6 +5,8 @@ import Digitools from './Components/Digitools'
 import Navbar from './Components/Navbar'
 import Rating from './Components/Rating'
 
+
+
 const getModels = async () => {
   const response = await fetch('/data.json');
   const models = await response.json();
@@ -12,6 +14,9 @@ const getModels = async () => {
 }
 
 function App() {
+
+  
+
   const modelPromise = getModels();
 
   return (
