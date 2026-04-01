@@ -36,8 +36,8 @@ const Products = ({ tools, carts, setCarts }) => {
 
   return (
     <div className="card w-96 bg-base-100 shadow-sm border-gray-600 p-6 ">
-      <div className="pb-7 ">
-        <img src={tools.image} alt={tools.name} />
+      <div className=" p-1 w-10 h-10 rounded-full border border-gray-300 ">
+        <img src={tools.icon} alt={tools.name} />
       </div>
       <button className={tagcolors + " text-sm font-semibold px-3 py-1 absolute top-4 right-4"}>
         {tools.tagType}

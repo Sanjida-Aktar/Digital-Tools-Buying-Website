@@ -27,9 +27,14 @@ const handleProced = () => {
           {carts.map((item) => (
             <li key={item.id}>
               <div className="flex items-center justify-between border-gray-400 rounded-2xl p-4 mb-4 shadow-sm">
-                <div>
-                  <h3 className="text-xl font-bold">{item.name}</h3>
+                <div  className="flex items-center gap-4">
+                  <div >
+                    <img src={item.icon} alt={item.name} className="w-12 h-12 rounded-full border border-gray-300" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold">{item.name}</h3>
                   <p className="text-lg">${item.price.toFixed(2)}</p>
+                  </div>
                 </div>
                 <button
                   className="btn rounded-full text-red-500"

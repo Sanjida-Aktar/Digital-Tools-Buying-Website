@@ -8,7 +8,7 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["100+ templates", "ATS optimization", "Export to PDF"],
-    "icon": "FaFileAlt"
+    "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135768.png"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "tag": "new",
     "tagType": "new",
     "features": ["Custom themes", "Drag & drop editor", "SEO friendly"],
-    "icon": "FaPalette"
+    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828919.png"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "tag": "best seller",
     "tagType": "best seller",
     "features": ["Financial templates", "Market analysis", "Pitch deck builder"],
-    "icon": "FaChartLine"
+    "icon": "https://cdn-icons-png.flaticon.com/512/2331/2331943.png"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["Post scheduler", "Analytics dashboard", "Hashtag generator"],
-    "icon": "FaShareAlt"
+    "icon": "https://cdn-icons-png.flaticon.com/512/1384/1384015.png"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "tag": "new",
     "tagType": "new",
     "features": ["Video hosting", "Quizzes & certificates", "Student analytics"],
-    "icon": "FaGraduationCap"
+    "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135755.png"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "tag": "best seller",
     "tagType": "best seller",
     "features": ["1TB storage", "File sharing", "End-to-end encryption"],
-    "icon": "FaCloud"
+    "icon": "https://cdn-icons-png.flaticon.com/512/4144/4144785.png"
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["Custom templates", "A/B testing", "Audience segmentation"],
-    "icon": "FaEnvelope"
+    "icon": "https://cdn-icons-png.flaticon.com/512/561/561127.png"
   },
   {
     "id": 8,
@@ -85,17 +85,17 @@
     "tag": "new",
     "tagType": "new",
     "features": ["Kanban boards", "Team collaboration", "Deadline reminders"],
-    "icon": "FaCheck"
+    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828640.png"
   },
   {
     "id": 9,
-    "name": "Task Manager ",
+    "name": "Task Manager",
     "description": "Organize projects and boost productivity.",
     "price": 7.98,
     "period": "monthly",
     "tag": "new",
     "tagType": "new",
     "features": ["Kanban boards", "Team collaboration", "Deadline reminders"],
-    "icon": "FaCheck"
+    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828640.png"
   }
 ]
