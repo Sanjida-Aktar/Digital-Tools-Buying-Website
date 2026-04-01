@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaCheck, FaIcons } from "react-icons/fa";
+import { toast } from "react-toastify";
 
 
 const Products = ({ tools, carts, setCarts }) => {
@@ -7,10 +8,16 @@ const Products = ({ tools, carts, setCarts }) => {
   
   const [isbuying , setIsBuying] = useState(false);
 
+  
   const handleBuyNow = () => {
+    const existingCart = carts.find((cart) => cart.id === tools.id);
+    if (existingCart) {
+      toast.error("You have already subscribed to this model!");
+      return;
+    }
     setIsBuying(true);
     setCarts([...carts, tools]);
- 
+    toast.success("item added to cart!");
    }
   // console.log(tools);
   let tagcolors ="" ;

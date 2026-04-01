@@ -7,7 +7,7 @@ import Rating from './Components/Rating'
 import Step from './Components/Step'
 import Prizeing from './Components/Prizeing'
 import Footer from './Components/Footer'
-
+import { ToastContainer } from "react-toastify";
 
 
 const getModels = async () => {
@@ -37,6 +37,7 @@ function App() {
       <Step></Step>
       <Prizeing></Prizeing>
       <Footer></Footer>
+      <ToastContainer></ToastContainer>
     </>
   )
 }
