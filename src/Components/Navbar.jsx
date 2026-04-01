@@ -12,16 +12,16 @@ const Navbar = () => {
       <div className="navbar-center hidden md:flex">
         <ul className="menu menu-horizontal gap-10 px-1 text-lg">
           <li>
-            <a>Home</a>
+            <a>Products</a>
           </li>
           <li>
-            <a>About</a>
+            <a>Features</a>
           </li>
           <li>
-            <a>Services</a>
+            <a>Priceing</a>
           </li>
           <li>
-            <a>Contact</a>
+            <a>FAQ</a>
           </li>
         </ul>
       </div>
